@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="88286dac-b0d9-4a9b-b76a-55c1a982418d">
+  <name>ВыборДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбор данных</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="40eb7e35-2a25-4146-b7ae-430be0790580"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c859ccd5-6b11-4cad-8080-bfee7b684919"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5b0b3680-5488-4a33-a52b-93018c8c4825"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="ce670fad-e028-46ae-991d-e6a65e2109b5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1aa751c7-5487-43e8-8a13-9c3c16c03fac"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="70a6897b-0972-4d09-9222-ccf8e06a2893"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bcf26984-b977-4fb0-ac1e-3ca7677a9eda"/>
+  <namePrefix>КА_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.23</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.2</version>
+  <languages uuid="1bbe3d75-ad0b-4325-a390-b1f4de30edb3">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.sdОсновнаяРоль</roles>
+</mdclass:Configuration>
