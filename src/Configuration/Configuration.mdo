@@ -21,7 +21,7 @@
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.0.2</version>
+  <version>2.0.0.1</version>
   <languages uuid="1bbe3d75-ad0b-4325-a390-b1f4de30edb3">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -30,5 +30,8 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <roles>Role.sdОсновнаяРоль</roles>
+  <subsystems>Subsystem.ВыборДанных</subsystems>
+  <commonModules>CommonModule.РаботаСДаннымиВыбора</commonModules>
+  <commonModules>CommonModule.РаботаСДаннымиВыбораПереопределяемый</commonModules>
+  <definedTypes>DefinedType.ОбъектыДанныхВыбора</definedTypes>
 </mdclass:Configuration>
